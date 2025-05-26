@@ -1,9 +1,8 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ArrowDown, Github, Linkedin, Email } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
 const Index = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -227,7 +226,7 @@ const Index = () => {
               href="mailto:hrithikbasu28@gmail.com"
               className="flex flex-col items-center p-6 bg-slate-700 rounded-lg hover:bg-slate-600 transition-colors duration-300"
             >
-              <Email className="w-8 h-8 mb-3 text-blue-400" />
+              <Mail className="w-8 h-8 mb-3 text-blue-400" />
               <span className="text-sm text-slate-300">Email</span>
               <span className="text-sm font-medium">hrithikbasu28@gmail.com</span>
             </a>

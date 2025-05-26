@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -81,9 +82,13 @@ const Index = () => {
         </div>
 
         <div className="text-center z-10 px-6">
-          {/* Profile Picture Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-500 to-teal-500 flex items-center justify-center text-white text-3xl font-bold shadow-xl">
-            HB
+          {/* Profile Picture */}
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden shadow-xl">
+            <img 
+              src="https://i.postimg.cc/vmBbBJBN/temp-Imagef-Rhtdi.avif" 
+              alt="Hrithik Basu Profile Picture"
+              className="w-full h-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-slate-800 mb-4 animate-fade-in">
